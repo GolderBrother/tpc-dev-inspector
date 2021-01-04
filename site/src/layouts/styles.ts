@@ -1,5 +1,6 @@
 import Corner from 'react-github-corner'
-import { css } from '@emotion/core'
+// import { css } from '@emotion/core'
+import { css } from '@emotion/react'
 import styled from '@emotion/styled'
 
 

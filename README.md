@@ -1,4 +1,4 @@
-<h1 align="center">React Dev Inspector</h1>
+<h1 align="center">TPC Dev Inspector</h1>
 
 <p align="center">
 dev-tool for inspect react components and jump to local IDE for component code.
