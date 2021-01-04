@@ -19,7 +19,7 @@ dev-tool for inspect react components and jump to local IDE for component code.
 
 Screen record (gif 8M): 
 
-[![inspector-gif](https://github.com/GolderBrother/tpc-dev-inspector/raw/master/docs/images/inspect.gif)](https://github.com/GolderBrother/tpc-dev-inspector/raw/master/docs/images/inspect.gif)
+[![inspect-course-gif](https://github.com/GolderBrother/tpc-dev-inspector/raw/master/docs/images/inspect-course.gif)](https://github.com/GolderBrother/tpc-dev-inspector/raw/master/docs/images/inspect-course.gif)
 
 
 
@@ -331,7 +331,7 @@ export REACT_EDITOR=vim
 
 code see: https://github.com/GolderBrother/tpc-dev-inspector/tree/master/site
 
-project preview: https://react-dev-inspector.zthxxx.me
+<!-- project preview: https://react-dev-inspector.zthxxx.me -->
 
 ## Analysis of Theory
 
