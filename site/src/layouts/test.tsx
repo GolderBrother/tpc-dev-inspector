@@ -38,15 +38,15 @@ export const HomePage = () => {
         />
 
         <Title>
-          <span>TPC Dev Inspector</span>
+          <span>TPC Dev Inspector test page</span>
         </Title>
 
         <Slogan>
-          <p>Inspect react components and click will jump to local IDE to view component code.</p>
-          <p><small>( for this prod online demo page, jump to GitHub file )</small></p>
+          <p>点我自动打开源码编辑器对应的文件和行号.</p>
         </Slogan>
 
         <KeyPad>
+          四连：
           <Keypress><div> Ctrl ⌃ </div></Keypress>
           +
           <Keypress><div> Shift ⇧ </div></Keypress>

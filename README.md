@@ -292,9 +292,13 @@ For example, if you want it always open VSCode when inspect clicked, set `export
   ![install-vscode-cli](./docs/images/install-vscode-cli.png)
 
 - set env to shell, like `.bashrc` or `.zshrc`
-  ```bash
+```bash
+export REACT_EDITOR=code
+```
+- shell 命令行中渐入命令：
+```bash
   export REACT_EDITOR=code
-  ```
+```
 
 #### WebStorm
 
