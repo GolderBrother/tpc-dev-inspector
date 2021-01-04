@@ -8,18 +8,18 @@ dev-tool for inspect react components and jump to local IDE for component code.
   <a href="https://www.npmjs.com/package/react-dev-inspector" target="_blank" rel="noopener noreferrer"><img src="https://badgen.net/npm/v/react-dev-inspector" alt="NPM Version" /></a>
   <a href="https://www.npmjs.com/package/react-dev-inspector" target="_blank" rel="noopener noreferrer"><img src="https://badgen.net/npm/dt/react-dev-inspector" alt="NPM Downloads" /></a>
   <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer"><img src="https://badgen.net/npm/node/react-dev-inspector" alt="Node.js" /></a>
-  <a href="https://github.com/zthxxx/react-dev-inspector/blob/master/LICENSE" target="_blank" rel="noopener noreferrer"><img src="https://badgen.net/github/license/zthxxx/react-dev-inspector" alt="License" /></a>
+  <a href="https://github.com/GolderBrother/tpc-dev-inspector/blob/master/LICENSE" target="_blank" rel="noopener noreferrer"><img src="https://badgen.net/github/license/zthxxx/react-dev-inspector" alt="License" /></a>
 </p>
 
 
 
 ## Preview
 
-Online demo: https://react-dev-inspector.zthxxx.me
+<!-- Online demo: https://react-dev-inspector.zthxxx.me -->
 
 Screen record (gif 8M): 
 
-[![inspector-gif](https://github.com/zthxxx/react-dev-inspector/raw/master/docs/images/inspect.gif)](https://react-dev-inspector.zthxxx.me/images/inspect.gif)
+[![inspector-gif](https://github.com/GolderBrother/tpc-dev-inspector/raw/master/docs/images/inspect.gif)](https://react-dev-inspector.zthxxx.me/images/inspect.gif)
 
 
 
@@ -254,8 +254,8 @@ typescript define you can see in `react-dev-inspector/es/Inspector.d.ts`
 | ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------------- |
 | keys                | inspector toggle hotkeys<br /><br />supported keys see: https://github.com/jaywcjlove/hotkeys#supported-keys | `string[]`                                                   | `['control', 'shift', 'command', 'c']` |
 | disableLaunchEditor | whether disable click react component to open IDE for view component code<br /><br />(launchEditor by default only support be used with react-dev-inpector plugins in dev) | `boolean`                                                    | `false`                                |
-| onHoverElement      | triggered while inspector start and mouse hover in a HTMLElement | [`(params: InspectParams) => void`](https://github.com/zthxxx/react-dev-inspector/blob/master/src/Inspector/Inspector.tsx#L14) | -                                      |
-| onClickElement      | triggered while inspector start and mouse click on a HTMLElement | [`(params: InspectParams) => void`](https://github.com/zthxxx/react-dev-inspector/blob/master/src/Inspector/Inspector.tsx#L14) | -                                      |
+| onHoverElement      | triggered while inspector start and mouse hover in a HTMLElement | [`(params: InspectParams) => void`](https://github.com/GolderBrother/tpc-dev-inspector/blob/master/src/Inspector/Inspector.tsx#L14) | -                                      |
+| onClickElement      | triggered while inspector start and mouse click on a HTMLElement | [`(params: InspectParams) => void`](https://github.com/GolderBrother/tpc-dev-inspector/blob/master/src/Inspector/Inspector.tsx#L14) | -                                      |
 
 ```ts
 // import type { InspectParams } from 'react-dev-inspector'
@@ -297,7 +297,7 @@ export REACT_EDITOR=code
 ```
 - shell 命令行中渐入命令：
 ```bash
-  export REACT_EDITOR=code
+export REACT_EDITOR=code
 ```
 
 #### WebStorm
@@ -329,7 +329,7 @@ export REACT_EDITOR=vim
 
 ## Example Project Code
 
-code see: https://github.com/zthxxx/react-dev-inspector/tree/master/site
+code see: https://github.com/GolderBrother/tpc-dev-inspector/tree/master/site
 
 project preview: https://react-dev-inspector.zthxxx.me
 
