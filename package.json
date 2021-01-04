@@ -1,5 +1,5 @@
 {
-  "name": "react-dev-inspector",
+  "name": "tpc-dev-inspector",
   "version": "1.1.4",
   "description": "dev-tool for inspect react components and jump to local IDE for component code.",
   "main": "es/index.js",
@@ -11,7 +11,7 @@
     "build:src": "tsc -p es-build.json",
     "build:plugins": "tsc -p cjs-build.json"
   },
-  "repository": "zthxxx/react-dev-inspector",
+  "repository": "GolderBrother/tpc-dev-inspector",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
@@ -20,12 +20,12 @@
     "component",
     "inspector"
   ],
-  "author": "zthxxx",
+  "author": "GolderBrother",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zthxxx/react-dev-inspector/issues"
+    "url": "https://github.com/GolderBrother/tpc-dev-inspector/issues"
   },
-  "homepage": "https://github.com/zthxxx/react-dev-inspector#readme",
+  "homepage": "https://github.com/GolderBrother/tpc-dev-inspector#readme",
   "files": [
     "README.md",
     ".npmrc",
