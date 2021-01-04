@@ -19,7 +19,7 @@ dev-tool for inspect react components and jump to local IDE for component code.
 
 Screen record (gif 8M): 
 
-[![inspector-gif](https://github.com/GolderBrother/tpc-dev-inspector/raw/master/docs/images/inspect.gif)](https://react-dev-inspector.zthxxx.me/images/inspect.gif)
+[![inspector-gif](https://github.com/GolderBrother/tpc-dev-inspector/raw/master/docs/images/inspect.gif)](https://github.com/GolderBrother/tpc-dev-inspector/raw/master/docs/images/inspect.gif)
 
 
 
